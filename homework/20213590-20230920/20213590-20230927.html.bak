@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>进一步学习git bash中的命令 </title>
+
+        <style type="text/css">
+            div{ 
+                font-size: 30px;
+                text-align:center;
+            }
+        </style>
+
+    </head>
+    <body>
+        <div>进一步学习git bash中的命令</div>
+      <p>对今天学习的总结</p>  
+      <p>
+          。
+      </p>
+      <ol type="1">
+          <li>
+            curl https://lijianhong19720904.github.io/WebAdv/kc00/cet6.txt >cet6.txt 将地址中的内容保存到txt中
+        </li>
+        <li>
+            ping命令通常用来检测网络的连通情况和测试网络速度；也可以根据域名得到相应主机的IP地址；根据ping返回的TTL值来判断对方所使用的操作系统及数据包经过路由器数量。
+        </li>
+        <li>
+            tracert简单网络诊断工具，探测数据包从源地址到目的地址经过的路由器IP地址
+        </li>
+        <li>
+            cut -d/ -f1 cet6.txt| grep 'ing$'  截取/前的第一部分同时查询以ing结尾的单词 
+           
+        </li>
+        <li> cut --delimiter=/ -f1 cet6.txt|grep '^z'|wc  截取/前的第一部分同时查询以z开头的单词 显示文件行数、单词数、字节数</li>
+        <li>
+            cut --delimiter=/ -f1 cet6.txt|grep '^s'|wc  查询所有四六级单词中x开头最少为一个,s开头最多为646个
+         </li>
+
+      </ol>
+      <p>总结:进一步加深在git bash中指令的理解。</p>
+    </body>
+</html>
